@@ -1,0 +1,43 @@
+ 
+ body{
+    text-align: center;
+    background-color:turquoise;
+} 
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+label{
+    font-size:larger;
+    font-family:'Montserrat', sans-serif;
+    font-weight:1000px;
+}
+
+
+#countInput {
+    margin-top:3%;
+ }
+ #startButton {
+       display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color:#3e8e41;
+        border: none;
+        border-radius: 15px;
+        
+        
+        margin-top: 3%;
+      }
+      
+      .button:hover {background-color: #3e8e41}
+      
+      .button:active {
+        background-color: #3e8e41;
+        
+        transform: translateY(4px);
+      }
+ 
